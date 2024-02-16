@@ -1,0 +1,17 @@
+
+
+
+numpy
+pandas
+
+openpyxl
+
+
+# Data Query
+yfinance
+pandas-datareader
+
+
+# Database
+sqlalchemy
+psycopg2

@@ -1,0 +1,47 @@
+{
+    // Window Editor
+    "editor.rulers": [
+        100
+    ],
+    // "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    // "editor.fontFamily": "JetBrains Mono, monospace",
+    // "editor.codeLensFontFamily": "JetBrains Mono, monospace",
+    "editor.minimap.enabled": false,
+    // Git
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    // Python
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.guessTypes": true,
+    "autoDocstring.generateDocstringOnEnter": true,
+    "python.analysis.typeCheckingMode": "basic",
+    // Terminal
+    // "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "JetBrains Mono, monospace",
+    // Files
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    // "[python]": {
+    //     "editor.defaultFormatter": "ms-python.black-formatter"
+    // },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true,
+    },
+    "hide-files.files": [],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
