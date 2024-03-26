@@ -3,13 +3,13 @@
     "editor.rulers": [
         100
     ],
-    // "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
     "editor.cursorStyle": "line-thin",
     "editor.fontSize": 12,
     "editor.fontLigatures": true,
-    // "editor.fontFamily": "JetBrains Mono, monospace",
-    // "editor.codeLensFontFamily": "JetBrains Mono, monospace",
+    "editor.fontFamily": "JetBrains Mono, monospace",
+    "editor.codeLensFontFamily": "JetBrains Mono, monospace",
     "editor.minimap.enabled": false,
     // Git
     "git.autofetch": true,
@@ -25,9 +25,9 @@
     // Files
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
-    // "[python]": {
-    //     "editor.defaultFormatter": "ms-python.black-formatter"
-    // },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
